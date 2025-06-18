@@ -159,8 +159,9 @@
   </div>
 
   <footer>
-    <h6> gmail:-iamvrukshavaidyar@gmail.com</h6>
+    <h6><button  class="book-button"onclick="mail()">📬︎ mail now</button></h6>
     <h6><button  class="book-button"onclick="call()">☎call now</button></h6>
+    <h6><button  class="book-button"onclick="map()">🏠Address</button></h6>
   </footer>
   <script>
     function call()
@@ -178,6 +179,14 @@
     if (!phone) return;
         alert("🌲🌳🌿your booking successfull🌲🌳🌿")
     }
+    function mail()
+      {
+        window.location.href("mailto:harikanjingattu@gmail.com")
+      }
+    function map()
+      {
+        window.location.href("https://geohack.toolforge.org/geohack.php?pagename=Desamangalam&params=10.7474400_N_76.23827_E_type:city(8446)_region:IN-KL")
+      }
   </script>
 </body>
 </html>
